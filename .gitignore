@@ -2,6 +2,7 @@ node_modules
 bower_components
 npm-debug.log
 pack.bash
+public
 npm-debug.log
 logs
 *.mo
