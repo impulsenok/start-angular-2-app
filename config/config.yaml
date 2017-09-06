@@ -1,0 +1,36 @@
+port: 8609
+
+device: "WEB"
+
+signature:
+    secret: "1bP13ybFcSeRvDs5R"
+
+token:
+    algorithm: "aes-128-ctr"
+    key: "3481a1s6f0s1ar82"
+    iv: "107df3re6e2e3f11"
+
+api:
+    url: "http://localhost:7090/api"
+
+redis:
+    connect:
+        host: "localhost"
+        port: "6379"
+    general_key: "my_app"
+    session_store:
+        prefix: "my_app:session:"
+        ttl: 7776000
+
+session:
+    name:   "MyApp"
+    secret: "MyAppSalt"
+    cookie:
+        maxAge: 7776000000
+
+locale:
+  locales: ['en']
+  default: 'en'
+  cookie_name: 'i18n'
+
+version: '1.0'

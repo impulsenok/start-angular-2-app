@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+$main-container-bg: #F8FCFF;
+$main-radius: 20px;
+$main-color: #34495E;
+$main-color-secondary: #7D8791;
+$main-color-active: #438bd3;
+
+$border-block: #DAE0E5;
+
+
+$z-index-app: 1030;
+
+$z-index-search: 1025;
+$z-index-dropdown-teacher: 1028;
+
+
+$block-options-width: 710px;
+
+
+$button-sm: 110px;
+$button-md: 150px;
+$button-lg: 180px;
+
+
+$element-bg: #F1F5F8;
+$element-height: 40px;
+$element-line-height: 38px;
+
+
+$linear-gradient-top: #3f83c9;
+$linear-gradient-bottom: #4e92d2;
+
+
+$button-primery-text-color: #fff;
+$button-primery-hover: #32679D;
+$button-primery-disabled: #CDD4D7;
+
+
+$button-secondary-border: #5FA1E3;
+$button-secondary-text-color: #438BD3;
+$button-secondary-hover: #3E82C9;
+$button-secondary-hover-color: #fff;
+$button-secondary-disabled: #E1E1E1;
+
+
+$placeholder-color: #34495e;
+
+
+//$border-focus: #5fa1e3;
+
+
+$drag-and-drop-height: 30px;
+$drag-and-drop-line-height: 26px;
+
+
+$cursor-pointer: pointer;
